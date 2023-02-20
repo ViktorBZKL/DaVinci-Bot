@@ -1,8 +1,6 @@
 import openai
 import telebot
 
-
-
 while True:
     openai.api_key = input("Enter OpenAI API: ")
     token = input("Enter TelegramBot API: ")
